@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf=8">
 		<title>
-			OpenEstateHeatmap
+			OpenEstateMap
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
@@ -44,6 +44,8 @@
 			
 			body {
 				font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+				font-size: 18px;
+				line-height: 24px;
 			}
 			.heading, .subheading {
 				font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
@@ -54,10 +56,10 @@
 				font-size: 24px;
 				line-height: 30px;
 			}
-			p {
+			/*p {
 				font-size: 18px;
 				line-height: 24px;
-			}
+			}*/
 			
 			.pitch {
 				padding: 2.5% 0%;
@@ -106,7 +108,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="brand" href="#">OpenEstateHeatmap</a>
+					<a class="brand" href="#">OpenEstateMap</a>
 					<div class="nav-collapse collapse">
 						<ul class="nav">
 							<li class="active"><a href="#">Home</a></li>
@@ -120,12 +122,12 @@
 		<div class="container">
 			<div class="row-fluid heading">
 				<div class="span12">
-					<h1>OpenEstateHeatmap</h1>
+					<h1>OpenEstateMap</h1>
 				</div>
 			</div>
 			<div class="row-fluid subheading">
 				<div class="span12">
-					<p class="lead">Open and free to use service providing current average real estate prices as the map layer.</p>
+					<p class="lead">Open and free to use service providing  real estate prices as the map layer.</p>
 				</div>
 			</div>
 			<div class="row-fluid pitch">
@@ -133,7 +135,8 @@
 					<img class="img-polaroid" src="http://placehold.it/480x300">
 				</div>
 				<div class="span5 actions">
-					<div class="span8 offset2">
+					<div class="span2 hidden-phone"></div>
+					<div class="span8">
 						<div class="statistics">
 							<div class="span4">
 								<div class="linediv-l">
@@ -142,7 +145,7 @@
 							</div>
 							<div class="span4">
 								<div class="linediv-c">
-									<h3>$0</h3> <p>of $45,000</p>
+									<h3>0</h3> <p>of &#8364;2,000</p>
 								</div>
 							</div>
 							<div class="span4">
@@ -152,16 +155,19 @@
 							</div>
 							</div>
 					</div>
-					<div class="span10 offset1">
+					<div class="span1 hidden-phone"></div>
+					<div class="span10">
 						<div class="thermometer progress active">
 							<div class="bar bar-success" style="width: 0%;"></div>
 							<div class="bar bar-warning" style="width: 100%;"></div>
 						</div>
 					</div>
-					<div class="span6 offset3 order">
-						<button class="btn btn-success btn-large">Preorder</button>
+					<div class="span3 hidden-phone"></div>
+					<div class="span6 order">
+						<button class="btn btn-success btn-large">Support</button>
 					</div>
-					<div class="span8 offset2 social">
+					<div class="span2 hidden-phone"></div>
+					<div class="span8 social">
 						<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
 						<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
 					</div>
@@ -173,17 +179,14 @@
 				</div>
 				<div class="span5 copy">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-						porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-						mollis justo velit at nunc. Fusce nec egestas sem. Donec
-						fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-						volutpat lorem ut congue malesuada. In facilisis scelerisque
-						turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-						quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-						risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-						consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-						rutrum, nunc leo tempus nisl, eu mollis justo velit at
-						nunc. Fusce nec egestas sem. Donec fringilla.
+						OpenEstateMap is a garage project to create free to use service using the data of OpenStreetMap for geography and numerous real estate property sale and rental opportunities gathered from agencies to ease the search and provide analytics.
+					</p>
+					<p>
+						For example, it will be possible to:
+						<ul>
+							<li>lookup for opportunities on map</li>
+							<li>see "heatmap" of prices, including animation of historical changes</li>
+							<li>and most interesting, see property that is significantly cheaper than its surroundings. <small><i>What if it's just underpriced by owner?</i></small></li>
 					</p>
 				</div>
 			</div>
@@ -191,17 +194,10 @@
 			<div class="row-fluid section2">
 				<div class="span5 offset1 copy copy-right">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-						porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-						mollis justo velit at nunc. Fusce nec egestas sem. Donec
-						fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-						volutpat lorem ut congue malesuada. In facilisis scelerisque
-						turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-						quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-						risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-						consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-						rutrum, nunc leo tempus nisl, eu mollis justo velit at
-						nunc. Fusce nec egestas sem. Donec fringilla.
+						Target territories = European Union. Just because I have to start with something, it shall be Lithuania, small country with overheated estate market.
+					</p>
+					<p>
+						I am neither affilated with any real estate agency nor have enough money to fully dedicate myself to this project so any help will be appreciated.
 					</p>
 				</div>
 				<div class="span5 asset">
